@@ -58,6 +58,7 @@ export const MediaRoom = ({
       connect={true}
       video={video}
       audio={audio}
+      
     >
       <VideoConference />
     </LiveKitRoom>
